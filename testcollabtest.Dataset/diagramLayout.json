@@ -1,0 +1,61 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 7,
+            "y": 104
+          },
+          "nodeIndex": "Cookie Types",
+          "nodeLineageTag": "85dc5275-6497-4e18-a3af-0e24749ee0dd",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 44
+          },
+          "nodeIndex": "Customers",
+          "nodeLineageTag": "de5315b0-b4ed-44dd-a1f5-9311cde6788f",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 401,
+            "y": 68
+          },
+          "nodeIndex": "Orders",
+          "nodeLineageTag": "00d204c3-bd71-465b-89f6-71901118036f",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 3
+        }
+      ],
+      "name": "Toutes les tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Toutes les tables",
+  "defaultDiagram": "Toutes les tables"
+}

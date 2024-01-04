@@ -1,0 +1,60 @@
+{
+  "config": "{\"version\":\"5.49\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY23SU11\",\"version\":\"5.50\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU11",
+            "path": "BaseThemes/CY23SU11.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0d4585e7a0bd3e50deb7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":768,\"y\":90,\"width\":512,\"height\":305,\"z\":2000,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Orders.Distinct Customers\"},{\"queryRef\":\"Orders.Total Profit\"}],\"Rows\":[{\"queryRef\":\"Customers.Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"Orders\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Customers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Distinct Customers\"},\"Name\":\"Orders.Distinct Customers\",\"NativeReferenceName\":\"Distinct Customers\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Total Profit\"},\"Name\":\"Orders.Total Profit\",\"NativeReferenceName\":\"Total Profit\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Name\"},\"Name\":\"Customers.Name\",\"NativeReferenceName\":\"Name\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 305.00,
+          "width": 512.00,
+          "x": 768.00,
+          "y": 90.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"2ce3f013a77a66a39a1c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":62,\"y\":405,\"width\":696,\"height\":305,\"z\":1000,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Customers.Name\",\"active\":true}],\"Values\":[{\"queryRef\":\"Orders.Count of orders\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"Orders\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Customers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Name\"},\"Name\":\"Customers.Name\",\"NativeReferenceName\":\"Name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Count of orders\"},\"Name\":\"Orders.Count of orders\",\"NativeReferenceName\":\"Count of orders\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Count of orders\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 305.00,
+          "width": 696.00,
+          "x": 62.00,
+          "y": 405.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"31289eca06e0bbe93c6b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":62.24924012158055,\"y\":90.45592705167174,\"z\":0,\"width\":696.4133738601824,\"height\":305.41033434650456,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Values\":[{\"queryRef\":\"Orders.Total numbre of units sold\"}],\"Rows\":[{\"queryRef\":\"Customers.Name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"o\",\"Entity\":\"Orders\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"Customers\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"o\"}},\"Property\":\"Total numbre of cookies sold\"},\"Name\":\"Orders.Total numbre of units sold\",\"NativeReferenceName\":\"Total numbre of cookies sold\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Name\"},\"Name\":\"Customers.Name\",\"NativeReferenceName\":\"Name\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 305.41,
+          "width": 696.41,
+          "x": 62.25,
+          "y": 90.46,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
